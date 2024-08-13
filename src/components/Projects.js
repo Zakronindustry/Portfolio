@@ -11,6 +11,9 @@ import ejpt from "../assets/eJPT.jpeg";
 import ecppt from "../assets/eCPPT.jpeg";
 import portfolio from "../assets/Portfolio1.gif";
 import catgram from "../assets/catgram.gif";
+import regal from "../assets/Regal.gif";
+import petflix from "../assets/Petflix.gif";
+import youtube from "../assets/youtube.png";
 
 const Projects = () => (
   <>
@@ -30,6 +33,21 @@ const Projects = () => (
             imgSrc: zakron,
             altText: "Project Zakron",
             liveLink: "https://zakronindustry.com/",
+          }, {
+            imgSrc: petflix,
+            altText: "Petflix",
+            liveLink: "https://petflix-pr0ject.vercel.app/",
+            
+          }, {
+            imgSrc: regal,
+            altText: "Regal",
+            liveLink: "https://regal-d0minion.vercel.app/",
+            
+          }, {
+            imgSrc: youtube,
+            altText: "YouTube",
+            liveLink: "https://youtube-cl0ne.vercel.app/",
+          
           }, {
             imgSrc: connecting,
             altText: "Connecting Dots",

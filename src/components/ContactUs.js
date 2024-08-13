@@ -75,8 +75,8 @@ const ContactForm = () => {
       </div>
       <button type="submit" className="w-full p-2 bg-blue-500 text-white rounded">Send Message</button>
     </form>
-    <footer className="text-[10px] flex justify-evenly items-center flex-col mt-10">
-    &copy; 2024 ZAKRON IT INDUSTRY . PRANAY JAIN 
+    <footer className="text-[10px] italic flex justify-evenly items-center flex-col mt-10 ">
+     <p className="hover:bg-gradient-to-r from-purple-600 to-pink">&copy; 2024  . PRANAY JAIN</p> 
     </footer>
     </section>
   );
